@@ -1,0 +1,27 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex: 1 ;
+    min-width: 280px; /* plus petit ecran de tel du marché*/
+    height: 500px;
+    border: 1px solid black;
+    background: beige;
+}
+figure img{
+    min-width: 100%;
+    max-width: 100%;
+}
+/*figure = image pour referencement*/
+figure{
+    width: 280px;
+}
